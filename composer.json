@@ -1,0 +1,11 @@
+{
+    "name": "lenovo/e-library-php-mvc-master",
+    "autoload": {
+        "psr-4": {
+            "App\\Controllers\\": "app/controllers/",
+            "App\\System\\": "app/system/"
+        }
+    },
+  
+    "require": {}
+}
