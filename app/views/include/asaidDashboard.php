@@ -136,6 +136,19 @@
   </a>
 </li>
    <!-- Misc -->
+    <!-- Misc -->
+  <li class="menu-header small text-uppercase"><span class="menu-header-text">ادارة دار النشر</span></li>
+  <li class="menu-item">
+  <a href="/add_publisher" class="menu-link">
+    <div>اضافة دار النشر</div>
+  </a>
+</li>
+<li class="menu-item">
+  <a href="/publishers" class="menu-link">
+    <div>عرض دار النشر</div>
+  </a>
+</li>
+   <!-- Misc -->
    <li class="menu-header small text-uppercase"><span class="menu-header-text">ادارة طرق الدفع</span></li>
    <li class="menu-item">
   <a href="#" class="menu-link">
