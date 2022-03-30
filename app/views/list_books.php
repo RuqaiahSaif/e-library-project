@@ -590,7 +590,7 @@
       <table class="table table-bordered">
         <thead>
           <tr>
-            <th>اسم القسم</th>
+            <th>اسم الكتاب</th>
             <th>الصورة</th>
             <th>الحالة</th>
             
@@ -600,15 +600,15 @@
         <tbody>
        
          
-         <?php foreach($params as $category){?>
+         <?php foreach($params as $book){?>
           <tr>
             
-            <td><?= $category['name'];?></td>
+            <td><?= $book['name'];?></td>
             <td>
-              <img class="img-fluid rounded" height="150px" width="150px" src="images/<?= $category['image'];?>">
+              <img class="img-fluid rounded" height="150px" width="150px" src="images/<?= $book['image'];?>">
             </td>
             <td>
-            <?php if($category['is_active']==1) {?>    
+            <?php if($book['is_active']==1) {?>    
             <span class="badge bg-label-success me-1">مفعل</span>
             <?php }
             else {?>
@@ -616,7 +616,7 @@
             <?php } ?>
             </td>
             <td>
-            <a href="/edit_category/id=<?php echo $category['id'];?>" class="btn btn-icon btn-outline-dribbble">
+            <a href="/edit_category/id=<?php echo $book['id'];?>" class="btn btn-icon btn-outline-dribbble">
                 <i class="tf-icons bx bx-edit-alt me-1"></i>
               </a>
               <button type="button" class="btn btn-icon btn-outline-dribbble">

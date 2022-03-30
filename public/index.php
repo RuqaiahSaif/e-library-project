@@ -4,6 +4,8 @@ use coding\app\system\AppSystem;
 use coding\app\system\Router;
 use coding\app\controllers\HomeController;
 use coding\app\controllers\AuthorsController;
+use coding\app\controllers\CategoriesController;
+use coding\app\controllers\bookController;
 use coding\app\controllers\PublishersController;
 use coding\app\controllers\UsersController;
 
@@ -41,7 +43,7 @@ Router::get('/new_user',[UsersController::class,'newUser']);
 Router::post('/save_user',[UsersController::class,'saveUser']);
 
 
-/** web routes  */
+/** category routes  */
 
 
 Router::get('/categories',[CategoriesController::class,'listAll']);
@@ -51,9 +53,19 @@ Router::get('/remove_category',[CategoriesController::class,'remove']);
 Router::post('/save_category',[CategoriesController::class,'store']);
 Router::post('/update_category',[CategoriesController::class,'update']);
 
-/** end of web routes */
+/** end of category routes */
+
+/** book routes  */
 
 
+Router::get('/books',[bookController::class,'listAll']);
+Router::get('/add_book',[bookController::class,'create']);
+Router::get('/edit_book/id',[bookController::class,'edit']);
+Router::get('/remove_book',[bookController::class,'remove']);
+Router::post('/save_book',[bookController::class,'store']);
+Router::post('/update_book',[bookController::class,'update']);
+
+/** end of book routes */
 // auther routers
 Router::get('/save_author',[AuthorsController::class,'createAuthor']);
 
