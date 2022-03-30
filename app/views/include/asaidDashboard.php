@@ -112,15 +112,27 @@
   </a>
 </li>
   <!-- Misc -->
-  <li class="menu-header small text-uppercase"><span class="menu-header-text">ادارة الكتب/span></li>
+  <li class="menu-header small text-uppercase"><span class="menu-header-text">ادارة الكتب</span></li>
   <li class="menu-item">
   <a href="/add_book" class="menu-link">
     <div>اضافة كتاب</div>
   </a>
 </li>
 <li class="menu-item">
-  <a href="/books" class="menu-link">
+  <a href="/authors" class="menu-link">
     <div>عرض الكتب</div>
+  </a>
+</li>
+ <!-- Misc -->
+  <li class="menu-header small text-uppercase"><span class="menu-header-text">ادارة المؤلفين</span></li>
+  <li class="menu-item">
+  <a href="/add_auther" class="menu-link">
+    <div>اضافة مؤلف</div>
+  </a>
+</li>
+<li class="menu-item">
+  <a href="/authors" class="menu-link">
+    <div>عرض المؤلفين</div>
   </a>
 </li>
    <!-- Misc -->

@@ -12,6 +12,16 @@ class CategoriesController extends Controller{
         //print_r($allCategories);
 
         $this->view('list_categories',$allCategories);
+        //  $this->view('index',$allCategories);
+
+    }
+     function show(){
+        $categories=new Category();
+        $allCategories=$categories->getAll();
+        //print_r($allCategories);
+
+        // $this->view('list_categories',$allCategories);
+         $this->view('index',$allCategories);
 
     }
     function create(){

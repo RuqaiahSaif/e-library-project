@@ -3,9 +3,9 @@ require_once __DIR__ . '/../vendor/autoload.php';
 use coding\app\system\AppSystem;
 use coding\app\system\Router;
 use coding\app\controllers\HomeController;
-use coding\app\controllers\AuthorsController;
 use coding\app\controllers\CategoriesController;
 use coding\app\controllers\bookController;
+use coding\app\controllers\AuthorsController;
 use coding\app\controllers\PublishersController;
 use coding\app\controllers\UsersController;
 
@@ -52,6 +52,7 @@ Router::get('/edit_category/id',[CategoriesController::class,'edit']);
 Router::get('/remove_category',[CategoriesController::class,'remove']);
 Router::post('/save_category',[CategoriesController::class,'store']);
 Router::post('/update_category',[CategoriesController::class,'update']);
+Router::get('/',[CategoriesController::class,'show']);
 
 /** end of category routes */
 
@@ -65,7 +66,19 @@ Router::get('/remove_book',[bookController::class,'remove']);
 Router::post('/save_book',[bookController::class,'store']);
 Router::post('/update_book',[bookController::class,'update']);
 
+/** end of Authors routes */
+
+
+
+Router::get('/authors',[AuthorsController::class,'listAll']);
+Router::get('/add_auther',[AuthorsController::class,'creates']);
+Router::get('/edit_author/id',[AuthorsController::class,'edit']);
+Router::get('/remove_author',[AuthorsController::class,'remove']);
+Router::post('/save_author',[AuthorsController::class,'store']);
+Router::post('/update_author',[AuthorsController::class,'update']);
+
 /** end of book routes */
+
 // auther routers
 Router::get('/save_author',[AuthorsController::class,'createAuthor']);
 
