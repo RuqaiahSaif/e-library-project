@@ -584,18 +584,29 @@
 
 <!-- Multi Column with Form Separator -->
 <div class="card mb-4">
-  <h5 class="card-header">انشاء قسم جديد</h5>
-  <form class="card-body" action="/save_category" method="POST" enctype="multipart/form-data">
+  <h5 class="card-header">انشاء كتاب جديد</h5>
+  <form class="card-body" action="/save_book" method="POST" enctype="multipart/form-data">
     
     <div class="row g-3">
       <div class="col-md-6">
-        <label class="form-label" for="multicol-username">اسم القسم</label>
-        <input name="category_name" type="text" id="multicol-username" class="form-control" placeholder="john.doe" />
+        <label class="form-label" for="multicol-username">اسم الكتاب</label>
+        <input name="book_name" type="text" id="multicol-username" class="form-control" placeholder="john.doe" />
       </div>
       <div class="col-md-6">
-        <label class="form-label" for="multicol-email">صورة القسم</label>
+        <label class="form-label" for="multicol-email">صورة الكتاب</label>
         <div class="input-group input-group-merge">
           <input  name="image" type="file"  class="form-control"  aria-describedby="multicol-email2" />
+          
+        </div>
+      </div>
+       <div class="col-md-6">
+        <label class="form-label" for="multicol-username">وصف الكتاب</label>
+        <input name="book_name" type="text" id="multicol-username" class="form-control" placeholder="john.doe" />
+      </div>
+      <div class="col-md-6">
+        <label class="form-label" for="multicol-email">سعر الكتاب</label>
+                <input name="book_name" type="number" id="multicol-username" class="form-control" placeholder="" />
+
           
         </div>
       </div>
