@@ -10,6 +10,7 @@ use coding\app\controllers\PublisherController;
 use coding\app\controllers\UsersController;
 use coding\app\controllers\CityController;
 use coding\app\controllers\OfferController;
+use coding\app\controllers\OrderController;
 
 use Dotenv\Dotenv;
 
@@ -118,6 +119,19 @@ Router::post('/save_offer',[OfferController::class,'store']);
 Router::post('/update_offer',[OfferController::class,'update']);
 
 /** end of offer routes */
+
+
+/** order routes  */
+
+
+Router::get('/orders',[OrderController::class,'listAll']);
+Router::get('/add_order',[OrderController::class,'create']);
+Router::get('/edit_order/id',[OrderController::class,'edit']);
+Router::get('/remove_order',[OrderController::class,'remove']);
+Router::post('/save_order',[OrderController::class,'store']);
+Router::post('/update_order',[OrderController::class,'update']);
+
+/** end of order routes */
 
 
 

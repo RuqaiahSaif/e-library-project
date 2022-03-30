@@ -90,6 +90,16 @@
 </li>
   <!-- Misc -->
   <li class="menu-header small text-uppercase"><span class="menu-header-text">ادارة الطلبات</span></li>
+   <li class="menu-item">
+  <a href="/add_order" class="menu-link">
+    <div>اضافة طلب</div>
+  </a>
+</li>
+ <li class="menu-item">
+  <a href="/orders" class="menu-link">
+    <div> عرض طلبات </div>
+  </a>
+</li>
   <li class="menu-item">
   <a href="#" class="menu-link">
     <div>طلبات جديدة</div>
