@@ -8,6 +8,7 @@ use coding\app\controllers\bookController;
 use coding\app\controllers\AuthorsController;
 use coding\app\controllers\PublisherController;
 use coding\app\controllers\UsersController;
+use coding\app\controllers\CityController;
 
 use Dotenv\Dotenv;
 
@@ -65,7 +66,7 @@ Router::get('/remove_book',[bookController::class,'remove']);
 Router::post('/save_book',[bookController::class,'store']);
 Router::post('/update_book',[bookController::class,'update']);
 
-/** end of Authors routes */
+/** end of books routes */
 
 
 
@@ -93,9 +94,19 @@ Router::post('/update_publisher',[PublisherController::class,'update']);
 /** end of publisher routes */
 
 
+/** city routes  */
+
+
+Router::get('/cities',[CityController::class,'listAll']);
+Router::get('/add_city',[CityController::class,'create']);
+Router::get('/edit_city/id',[CityController::class,'edit']);
+Router::get('/remove_city',[CityController::class,'remove']);
+Router::post('/save_city',[CityController::class,'store']);
+Router::post('/update_city',[CityController::class,'update']);
+
+/** end of city routes */
+
 // auther routers
 Router::get('/save_author',[AuthorsController::class,'createAuthor']);
-
-
 $system->start();
 
