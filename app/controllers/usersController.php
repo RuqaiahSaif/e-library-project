@@ -9,6 +9,15 @@ class UsersController extends Controller{
         $this->view('new_user');
     }
 
+      function listAll(){
+        $users=new User();
+        $allusers=$users->getAll();
+        //print_r($allCategories);
+
+        $this->view('list_users',$allusers);
+
+    }
+
         public function show(){
 
     }

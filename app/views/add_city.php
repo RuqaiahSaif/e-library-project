@@ -95,12 +95,13 @@
 
 
 
-<!-- Menu -->
+  
+  
+      <!-- Menu -->
 
-<?php include("include/asaidDashboard.php");?>
-<!-- / Menu -->
+   <?php include("include/asaidDashboard.php");?>
+      <!-- / Menu -->
 
-    
 
     <!-- Layout container -->
     <div class="layout-page">
@@ -583,36 +584,25 @@
 
 <!-- Multi Column with Form Separator -->
 <div class="card mb-4">
-  <h5 class="card-header">Multi Column with Form Separator</h5>
-  <form class="card-body" action="/save_user" method="POST">
-    <h6>1. Account Details</h6>
+  <h5 class="card-header">اضافةمدينة جديد</h5>
+  <form class="card-body" action="/save_city" method="POST" enctype="multipart/form-data">
+    
     <div class="row g-3">
       <div class="col-md-6">
-        <label class="form-label" for="multicol-username">Username</label>
-        <input name="name" type="text" id="multicol-username" class="form-control" placeholder="john.doe" />
+        <label class="form-label" for="multicol-username">اسم المدينة</label>
+        <input name="city_name" type="text" id="multicol-username" class="form-control" placeholder="john.doe" />
       </div>
-      <div class="col-md-6">
-        <label class="form-label" for="multicol-email">Email</label>
-        <div class="input-group input-group-merge">
-          <input  name="email"type="text" id="multicol-email" class="form-control" placeholder="john.doe" aria-label="john.doe" aria-describedby="multicol-email2" />
-          <span class="input-group-text" id="multicol-email2">@example.com</span>
-        </div>
-      </div>
+    
+      
+    
+     
+      
       <div class="col-md-6">
         <div class="form-password-toggle">
-          <label class="form-label" for="multicol-password">Password</label>
-          <div class="input-group input-group-merge">
-            <input  name="password" type="password" id="multicol-password" class="form-control" placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;" aria-describedby="multicol-password2" />
-            <span class="input-group-text cursor-pointer" id="multicol-password2"><i class="bx bx-hide"></i></span>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="form-password-toggle">
-          <label class="form-label" for="multicol-confirm-password">user activation</label>
+          <label class="form-label" for="multicol-confirm-password">تفعيل </label>
           <div class="input-group input-group-merge">
           <label class="switch">
-              <input name="is_active" value=1 type="checkbox" checked class="switch-input" />
+              <input name="is_active" value=1 type="checkbox" checked class="switch-input"  />
               <span class="switch-toggle-slider">
                 <span class="switch-on"></span>
                 <span class="switch-off"></span>
