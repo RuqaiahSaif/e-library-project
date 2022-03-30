@@ -163,6 +163,23 @@
 
 
    <!-- Misc -->
+
+    <!-- Misc -->
+   <li class="menu-header small text-uppercase"><span class="menu-header-text">ادارة العرض</span></li>
+   <li class="menu-item">
+  <a href="/add_offer" class="menu-link">
+    <div>اضافة عرض </div>
+  </a>
+</li>
+<li class="menu-item">
+  <a href="/offers" class="menu-link">
+    <div>العروض</div>
+  </a>
+</li>
+
+
+   <!-- Misc -->
+
    <!-- Misc -->
    <li class="menu-header small text-uppercase"><span class="menu-header-text">ادارة طرق الدفع</span></li>
    <li class="menu-item">
