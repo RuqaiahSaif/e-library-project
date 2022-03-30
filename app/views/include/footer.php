@@ -69,13 +69,13 @@
                             تواصل معنا
                         </h2>
                         <ul class="ft-social-list">
-                            <li><a href="#"><img src="app/public/img/svg/svgexport-59.svg" alt=""></a></li>
-                            <li><a href="#"><img src="app/public/img/svg/svgexport-60.svg" alt=""></a></li>
-                            <li><a href="#"><img src="app/public/img/svg/svgexport-61.svg" alt=""></a></li>
-                            <li><a href="#"><img src="app/public/img/svg/svgexport-62.svg" alt=""></a></li>
-                            <li><a href="#"><img src="app/public/img/svg/svgexport-63.svg" alt=""></a></li>
-                            <li><a href="#"><img src="app/public/img/svg/svgexport-64.svg" alt=""></a></li>
-                            <li><a href="#"><img src="app/public/img/svg/svgexport-65.svg" alt=""></a></li>
+                            <li><a href="#"><img src="img/svg/svgexport-59.svg" alt=""></a></li>
+                            <li><a href="#"><img src="img/svg/svgexport-60.svg" alt=""></a></li>
+                            <li><a href="#"><img src="img/svg/svgexport-61.svg" alt=""></a></li>
+                            <li><a href="#"><img src="img/svg/svgexport-62.svg" alt=""></a></li>
+                            <li><a href="#"><img src="img/svg/svgexport-63.svg" alt=""></a></li>
+                            <li><a href="#"><img src="img/svg/svgexport-64.svg" alt=""></a></li>
+                            <li><a href="#"><img src="img/svg/svgexport-65.svg" alt=""></a></li>
 
                         </ul>
                     </section>
@@ -87,12 +87,12 @@
                     <div class="ft-legal-list">
                         <div class="brands">
                             <!-- <li><img src="img/svg/svgexport-65.svg" alt=""></li> -->
-                            <li> <img src="app/public/img/svg/svgexport-66.svg" alt=""></li>
-                            <li><img src="app/public/img/svg/svgexport-67.svg" alt=""></li>
-                            <li> <img src="app/public/img/svg/svgexport-68.svg" alt=""></li>
-                            <li> <img src="app/public/img/svg/svgexport-69.svg" alt=""></li>
-                            <li> <img src="app/public/img/svg/svgexport-70.svg" alt=""></li>
-                            <li> <img src="app/public/img/svg/svgexport-71.svg" alt=""></li>
+                            <li> <img src="img/svg/svgexport-66.svg" alt=""></li>
+                            <li><img src="img/svg/svgexport-67.svg" alt=""></li>
+                            <li> <img src="img/svg/svgexport-68.svg" alt=""></li>
+                            <li> <img src="img/svg/svgexport-69.svg" alt=""></li>
+                            <li> <img src="img/svg/svgexport-70.svg" alt=""></li>
+                            <li> <img src="img/svg/svgexport-71.svg" alt=""></li>
                         </div>
                         <div class="copy">
                             <ul class="sm-menue">

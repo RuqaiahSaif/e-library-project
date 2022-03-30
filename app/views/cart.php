@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="app/public/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Cart</title>
 </head>
 
@@ -27,16 +27,16 @@
                         <ul id="dropmenue">
 
 
-                            <li><a href="#sec1" id="myBtn"><img src="app/public/app/public/img\svg\svgexport-1.svg"><span>ادخل لحسابك أو
+                            <li><a href="#sec1" id="myBtn"><img src="img\svg\svgexport-1.svg"><span>ادخل لحسابك أو
                                         سجل الآن</span></a>
                             </li>
-                            <li><a href="index.html"><img src="app/public/img\svg\svgexport-2.svg"><span>الرئيسية</span></a></li>
-                            <li><a href=""><img src="app/public/img\svg\svgexport-3.svg"><span>من نحن</span></a></li>
-                            <li><a href=""><img src="app/public/img\svg\svgexport-4.svg"><span>اتصل بنا</span> </a></li>
-                            <li><a href=""><img src="app/public/img\svg\svgexport-5.svg"><span>المساعدة</span></a></li>
-                            <li><a href=""><img src="app/public/img\svg\svgexport-11.svg"><span>سياسة الخصوصية</span></a></li>
-                            <li><a href=""><img src="app/public/img\svg\svgexport-12.svg"><span>اليمن YER</span></a></li>
-                            <li><a href=""><span>English</span><img src="app/public/img\svg\svgexport-14.svg"></a></li>
+                            <li><a href="/"><img src="img\svg\svgexport-2.svg"><span>الرئيسية</span></a></li>
+                            <li><a href=""><img src="img\svg\svgexport-3.svg"><span>من نحن</span></a></li>
+                            <li><a href=""><img src="img\svg\svgexport-4.svg"><span>اتصل بنا</span> </a></li>
+                            <li><a href=""><img src="img\svg\svgexport-5.svg"><span>المساعدة</span></a></li>
+                            <li><a href=""><img src="img\svg\svgexport-11.svg"><span>سياسة الخصوصية</span></a></li>
+                            <li><a href=""><img src="img\svg\svgexport-12.svg"><span>اليمن YER</span></a></li>
+                            <li><a href=""><span>English</span><img src="img\svg\svgexport-14.svg"></a></li>
 
                         </ul>
 
@@ -45,7 +45,7 @@
                 <div class="main-continer">
                     <div class="nav2">
                         <div class="logo">
-                            <a href="index.html"> <img src="img/logo.png" alt=""></a>
+                            <a href="/"> <img src="img/logo.png" alt=""></a>
                         </div>
                         <div class="form-div">
                             <form class="search-form">
@@ -78,7 +78,7 @@
                     <div class="col-cart1">
                         <div class="cart-row">
                             <div class="cart-det">
-                                <div class="book-name"> <img src="app/public/img/book1.jpg" alt="">
+                                <div class="book-name"> <img src="img/book1.jpg" alt="">
                                     <p>البداية والنهاية الجزء الأول (كتاب الكتروني)<span><br>منتج قابل للخصم لحاملي
                                             بطاقة
                                             خصم مكتبة جرير</span></p>
@@ -113,7 +113,7 @@
 
                         <div class="cart-row">
                             <div class="cart-det">
-                                <div class="book-name"> <img src="app/public/img/book1.jpg" alt="">
+                                <div class="book-name"> <img src="img/book1.jpg" alt="">
                                     <p>البداية والنهاية الجزء الأول (كتاب الكتروني)<span><br>منتج قابل للخصم لحاملي
                                             بطاقة
                                             خصم مكتبة جرير</span></p>
@@ -147,7 +147,7 @@
 
                         <div class="cart-row">
                             <div class="cart-det">
-                                <div class="book-name"> <img src="app/public/img/book1.jpg" alt="">
+                                <div class="book-name"> <img src="img/book1.jpg" alt="">
                                     <p>البداية والنهاية الجزء الأول (كتاب الكتروني)<span><br>منتج قابل للخصم لحاملي
                                             بطاقة
                                             خصم مكتبة جرير</span></p>
@@ -215,10 +215,10 @@
             <!-- end signin -->
         </footer>
     </div>
-    <script src="app/public/js/app.js"></script>
-    <script src="app/public/js/app2.js"></script>
-    <script src="app/public/js/app3.js"></script>
-    <script src="app/public/js/cart.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/app2.js"></script>
+    <script src="js/app3.js"></script>
+    <script src="js/cart.js"></script>
 </body>
 
 </html>
