@@ -12,8 +12,15 @@
         <section class="sec">
             <div class="main-continer">
                 <h2>تصفح حسب القسم</h2>
+                 <?php foreach($params as $category){?>
                 <div class="raw">
                     <div class="col-7">
+
+                        <img src="images/<?= $category['image'];?>" alt="">
+                        <p style="margin-top: 10px; color:#5e2f26; font-weight: bold;"><?php echo $category['name'];?></p>
+                    </div>
+                     <?php } ?>
+                    <!-- <div class="col-7">
 
                         <img src="img/svg/svgexport-46.svg" alt="">
                         <p style="margin-top: 10px; color:#5e2f26; font-weight: bold;">دين</p>
@@ -49,7 +56,7 @@
 
                         <img src="img/svg/svgexport-48.svg" alt="">
                         <p style="margin-top: 10px; color:#9c223f; font-weight: bold;">تربية</p>
-                    </div>
+                    </div> -->
                 </div>
             </div>
 

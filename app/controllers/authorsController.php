@@ -1,20 +1,81 @@
 <?php
 namespace coding\app\controllers;
 
-use coding\app\models\AUthor;
+use coding\app\models\Author;
 
-class AuthorsController{
+class AuthorsController extends Controller{
 
-    public function createAuthor(){
-        $author=new AUthor();
-        $author->name="ali";
-        $author->phone="77878788";
-        $author->bio="fafdasdfasdfas";
-        $author->email="auth@gmail.com";
-        $author->created_by=1;
-        $author->is_active=1;
-        $author->save();
+    function listAll(){
+        $authers=new Author();
+        $allauthers=$authers->getAll();
+        //print_r($allCategories);
+
+        $this->view('list_authors',$allauthers);
+
     }
+    function creates(){
+        $this->view('add_auther');
+
+    }
+
+    function store(){
+        print_r($_POST);
+        print_r($_FILES);
+        $book=new Book();
+        
+        $category->name=$_POST['category_name'];
+        $imageName=$this->uploadFile($_FILES['image']);
+
+        $category->image=$imageName!=null?$imageName:"default.png";
+        $category->created_by=1;
+        if(isset($_POST['is_active'])&& $_POST['is_active'] == 1){
+             $category->is_active=1;
+        }
+        else{
+        $category->is_active= 0;
+        }
+
+        $category->save();
+
+    }
+    function edit($id = 0, $edit = null){
+       echo "h"; 
+
+    }
+    function update(){
+
+    }
+    public function remove(){
+
+    }
+
+
+    public static function uploadFile(array $imageFile): string
+    {
+        // check images direction
+        if (!is_dir(__DIR__ . '/../../public/images')) {
+            mkdir(__DIR__ . '/../../public/images');
+        }
+
+        if ($imageFile && $imageFile['tmp_name']) {
+            $image = explode('.', $imageFile['name']);
+            $imageExtension = end($image);
+
+            $imageName = uniqid(). "." . $imageExtension;
+            $imagePath =  __DIR__ . '/../../public/images/' . $imageName;
+
+            move_uploaded_file($imageFile['tmp_name'], $imagePath);
+
+            return $imageName;
+        }
+
+        return null;
+    }
+
+    
+
+
+
 
 }
 ?>
