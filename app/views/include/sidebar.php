@@ -1,19 +1,19 @@
    <section class="sidebar">
             <div class="continer">
                 <div class="slider">
-                    <img src="app/public/img/slider_img.webp" alt="">
+                    <img src="img/slider_img.webp" alt="">
 
                 </div>
                 <div class="slider">
-                    <img src="app/public/img/slider_img2.webp" alt="">
+                    <img src="img/slider_img2.webp" alt="">
 
                 </div>
                 <div class="slider">
-                    <img src="app/public/img/slider_img3.jpg" alt="">
+                    <img src="img/slider_img3.jpg" alt="">
 
                 </div>
                 <div class="slider">
-                    <img src="app/public/img/slider_img4.webp" alt="">
+                    <img src="img/slider_img4.webp" alt="">
 
                 </div>
                 <a class="prev1" onclick="plusSlides_he(-1)">&#10094;</a>

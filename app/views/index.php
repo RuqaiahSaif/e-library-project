@@ -15,39 +15,39 @@
                 <div class="raw">
                     <div class="col-7">
 
-                        <img src="app/public/img/svg/svgexport-46.svg" alt="">
+                        <img src="img/svg/svgexport-46.svg" alt="">
                         <p style="margin-top: 10px; color:#5e2f26; font-weight: bold;">دين</p>
                     </div>
                     <div class="col-7">
 
-                        <img src="app/public/img/svg/svgexport-42.svg" alt="">
+                        <img src="img/svg/svgexport-42.svg" alt="">
                         <p style="margin-top: 10px; color:#f67828; font-weight: bold;">تاريخ</p>
                     </div>
                     <div class="col-7">
 
-                        <img src="app/public/img/svg/svgexport-40.svg" alt="">
+                        <img src="img/svg/svgexport-40.svg" alt="">
                         <p style="margin-top: 10px; color:#76689a; font-weight: bold;">روايات</p>
                     </div>
                     <div class="col-7">
 
-                        <img src="app/public/img/svg/svgexport-43.svg" alt="">
+                        <img src="img/svg/svgexport-43.svg" alt="">
                         <p style="margin-top: 10px; color: #bc4077; font-weight: bold;">سياسة</p>
                     </div>
 
                     <div class="col-7">
 
-                        <img src="app/public/img/svg/svgexport-45.svg" alt="">
+                        <img src="img/svg/svgexport-45.svg" alt="">
                         <p style="margin-top: 10px; color:#0089b6; font-weight: bold;">اقتصاد</p>
                     </div>
                     <div class="col-7">
 
-                        <img src="app/public/img/svg/svgexport-47.svg" alt="">
+                        <img src="img/svg/svgexport-47.svg" alt="">
                         <p style="margin-top: 10px; color:#7db344; font-weight: bold;">طبخ</p>
 
                     </div>
                     <div class="col-7">
 
-                        <img src="app/public/img/svg/svgexport-48.svg" alt="">
+                        <img src="img/svg/svgexport-48.svg" alt="">
                         <p style="margin-top: 10px; color:#9c223f; font-weight: bold;">تربية</p>
                     </div>
                 </div>
@@ -66,9 +66,9 @@
 
 
                         <div class="flexCard flexCardsearch">
-                            <a href="/details"><img src="app/public/img/kebr.jpg" alt="" class="book-photo"></a>
+                            <a href="/details"><img src="img/kebr.jpg" alt="" class="book-photo"></a>
                             <div class="card-title">
-                                <img src="app/public/img/svg/svgexport-57.svg" alt="">
+                                <img src="img/svg/svgexport-57.svg" alt="">
                                 <p>كتاب الكتروني</p>
 
                             </div>
@@ -78,9 +78,9 @@
                             </div>
                             <div class="dareba">شامل الضريبه</div>
                             <div class="icons">
-                                <img src="app/public/img/svg/svgexport-2.svg">
-                                <img src="app/public/img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
-                                <img src="app/public/img/svg/svgexport-56.svg">
+                                <img src="img/svg/svgexport-2.svg">
+                                <img src="img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
+                                <img src="img/svg/svgexport-56.svg">
                             </div>
                             <div class="sptialshow">
                                 <i class="far fa-clock"></i>
@@ -92,9 +92,9 @@
                         </div>
 
                         <div class="flexCard flexCardsearch">
-                            <a href="/details"><img src="app/public/img/khalf.jpg" alt="" class="book-photo"></a>
+                            <a href="/details"><img src="img/khalf.jpg" alt="" class="book-photo"></a>
                             <div class="card-title">
-                                <img src="app/public/img/svg/svgexport-57.svg" alt="">
+                                <img src="img/svg/svgexport-57.svg" alt="">
                                 <p>كتاب الكتروني</p>
 
                             </div>
@@ -104,9 +104,9 @@
                             </div>
                             <div class="dareba">شامل الضريبه</div>
                             <div class="icons">
-                                <img src="app/public/img/svg/svgexport-2.svg">
-                                <img src="app/public/img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
-                                <img src="app/public/img/svg/svgexport-56.svg">
+                                <img src="img/svg/svgexport-2.svg">
+                                <img src="img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
+                                <img src="img/svg/svgexport-56.svg">
                             </div>
                             <div class="sptialshow">
                                 <i class="far fa-clock"></i>
@@ -120,9 +120,9 @@
 
 
                         <div class="flexCard flexCardsearch">
-                            <a href="/details"><img src="app/public/img/katlog.jpg" alt="" class="book-photo"></a>
+                            <a href="/details"><img src="img/katlog.jpg" alt="" class="book-photo"></a>
                             <div class="card-title">
-                                <img src="app/public/img/svg/svgexport-57.svg" alt="">
+                                <img src="img/svg/svgexport-57.svg" alt="">
                                 <p>كتاب الكتروني</p>
 
                             </div>
@@ -135,9 +135,9 @@
                                 <p>كتاب مطبوع</p>
                             </div>
                             <div class="icons">
-                                <img src="app/public/img/svg/svgexport-2.svg">
-                                <img src="app/public/img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
-                                <img src="app/public/img/svg/svgexport-56.svg">
+                                <img src="img/svg/svgexport-2.svg">
+                                <img src="img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
+                                <img src="img/svg/svgexport-56.svg">
                             </div>
                             <div class="sptialshow">
                                 <i class="far fa-clock"></i>
@@ -152,9 +152,9 @@
 
 
                         <div class="flexCard flexCardsearch">
-                            <a href="/details"><img src="app/public/img/asaran.jpg" alt="" class="book-photo"></a>
+                            <a href="/details"><img src="img/asaran.jpg" alt="" class="book-photo"></a>
                             <div class="card-title">
-                                <img src="app/public/img/svg/svgexport-57.svg" alt="">
+                                <img src="img/svg/svgexport-57.svg" alt="">
                                 <p>كتاب الكتروني</p>
 
                             </div>
@@ -164,9 +164,9 @@
                             </div>
                             <div class="dareba">شامل الضريبه</div>
                             <div class="icons">
-                                <img src="app/public/img/svg/svgexport-2.svg">
-                                <img src="app/public/img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
-                                <img src="app/public/img/svg/svgexport-56.svg">
+                                <img src="img/svg/svgexport-2.svg">
+                                <img src="img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
+                                <img src="img/svg/svgexport-56.svg">
                             </div>
                             <div class="sptialshow">
                                 <i class="far fa-clock"></i>
@@ -181,9 +181,9 @@
 
 
                         <div class="flexCard flexCardsearch">
-                            <a href="/details"><img src="app/public/img/zawag.jpg" alt="" class="book-photo"></a>
+                            <a href="/details"><img src="img/zawag.jpg" alt="" class="book-photo"></a>
                             <div class="card-title">
-                                <img src="app/public/img/svg/svgexport-57.svg" alt="">
+                                <img src="img/svg/svgexport-57.svg" alt="">
                                 <p>كتاب الكتروني</p>
 
                             </div>
@@ -193,9 +193,9 @@
                             </div>
                             <div class="dareba">شامل الضريبه</div>
                             <div class="icons">
-                                <img src="app/public/img/svg/svgexport-2.svg">
-                                <img src="app/public/img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
-                                <img src="app/public/img/svg/svgexport-56.svg">
+                                <img src="img/svg/svgexport-2.svg">
+                                <img src="img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
+                                <img src="img/svg/svgexport-56.svg">
                             </div>
                             <div class="sptialshow">
                                 <i class="far fa-clock"></i>
@@ -226,7 +226,7 @@
 
 
                         <div class="flexCard flexCardsearch">
-                            <a href="/details"><img src="app/public/img/kebr.jpg" alt="" class="book-photo"></a>
+                            <a href="/details"><img src="img/kebr.jpg" alt="" class="book-photo"></a>
                             <div class="card-title">
                                 <img src="img/svg/svgexport-57.svg" alt="">
                                 <p>كتاب الكتروني</p>
@@ -238,18 +238,18 @@
                             </div>
                             <div class="dareba">شامل الضريبه</div>
                             <div class="icons">
-                                <img src="app/public/img/svg/svgexport-2.svg">
-                                <img src="app/public/img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
-                                <img src="app/public/img/svg/svgexport-56.svg">
+                                <img src="img/svg/svgexport-2.svg">
+                                <img src="img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
+                                <img src="img/svg/svgexport-56.svg">
                             </div>
 
 
                         </div>
 
                         <div class="flexCard flexCardsearch">
-                            <a href="/details"><img src="app/public/img/khalf.jpg" alt="" class="book-photo"></a>
+                            <a href="/details"><img src="img/khalf.jpg" alt="" class="book-photo"></a>
                             <div class="card-title">
-                                <img src="app/public/img/svg/svgexport-57.svg" alt="">
+                                <img src="img/svg/svgexport-57.svg" alt="">
                                 <p>كتاب الكتروني</p>
 
                             </div>
@@ -259,9 +259,9 @@
                             </div>
                             <div class="dareba">شامل الضريبه</div>
                             <div class="icons">
-                                <img src="app/public/img/svg/svgexport-2.svg">
-                                <img src="app/public/img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
-                                <img src="app/public/img/svg/svgexport-56.svg">
+                                <img src="img/svg/svgexport-2.svg">
+                                <img src="img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
+                                <img src="img/svg/svgexport-56.svg">
                             </div>
 
 
@@ -269,7 +269,7 @@
 
 
                         <div class="flexCard flexCardsearch">
-                            <a href="/details"><img src="app/public/img/katlog.jpg" alt="" class="book-photo"></a>
+                            <a href="/details"><img src="img/katlog.jpg" alt="" class="book-photo"></a>
                             <div class="card-title">
                                 <img src="img/svg/svgexport-57.svg" alt="">
                                 <p>كتاب الكتروني</p>
@@ -284,9 +284,9 @@
                                 <p>كتاب مطبوع</p>
                             </div>
                             <div class="icons">
-                                <img src="app/public/img/svg/svgexport-2.svg">
-                                <img src="app/public/img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
-                                <img src="app/public/img/svg/svgexport-56.svg">
+                                <img src="img/svg/svgexport-2.svg">
+                                <img src="img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
+                                <img src="img/svg/svgexport-56.svg">
                             </div>
 
 
@@ -295,9 +295,9 @@
 
 
                         <div class="flexCard flexCardsearch">
-                            <a href="/details"><img src="app/public/img/asaran.jpg" alt="" class="book-photo"></a>
+                            <a href="/details"><img src="img/asaran.jpg" alt="" class="book-photo"></a>
                             <div class="card-title">
-                                <img src="app/public/img/svg/svgexport-57.svg" alt="">
+                                <img src="img/svg/svgexport-57.svg" alt="">
                                 <p>كتاب الكتروني</p>
 
                             </div>
@@ -307,9 +307,9 @@
                             </div>
                             <div class="dareba">شامل الضريبه</div>
                             <div class="icons">
-                                <img src="app/public/img/svg/svgexport-2.svg">
-                                <img src="app/public/img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
-                                <img src="app/public/img/svg/svgexport-56.svg">
+                                <img src="img/svg/svgexport-2.svg">
+                                <img src="img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
+                                <img src="img/svg/svgexport-56.svg">
                             </div>
 
 
@@ -318,9 +318,9 @@
 
 
                         <div class="flexCard flexCardsearch">
-                            <a href="/details"><img src="app/public/img/zawag.jpg" alt="" class="book-photo"></a>
+                            <a href="/details"><img src="img/zawag.jpg" alt="" class="book-photo"></a>
                             <div class="card-title">
-                                <img src="app/public/img/svg/svgexport-57.svg" alt="">
+                                <img src="img/svg/svgexport-57.svg" alt="">
                                 <p>كتاب الكتروني</p>
 
                             </div>
@@ -330,9 +330,9 @@
                             </div>
                             <div class="dareba">شامل الضريبه</div>
                             <div class="icons">
-                                <img src="app/public/img/svg/svgexport-2.svg">
-                                <img src="app/public/img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
-                                <img src="app/public/img/svg/svgexport-56.svg">
+                                <img src="img/svg/svgexport-2.svg">
+                                <img src="img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
+                                <img src="img/svg/svgexport-56.svg">
                             </div>
 
 
@@ -358,9 +358,9 @@
 
 
                         <div class="flexCard flexCardsearch">
-                            <a href="/details"><img src="app/public/img/kebr.jpg" alt="" class="book-photo"></a>
+                            <a href="/details"><img src="img/kebr.jpg" alt="" class="book-photo"></a>
                             <div class="card-title">
-                                <img src="app/public/img/svg/svgexport-57.svg" alt="">
+                                <img src="img/svg/svgexport-57.svg" alt="">
                                 <p>كتاب الكتروني</p>
 
                             </div>
@@ -370,18 +370,18 @@
                             </div>
                             <div class="dareba">شامل الضريبه</div>
                             <div class="icons">
-                                <img src="app/public/img/svg/svgexport-2.svg">
-                                <img src="app/public/img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
-                                <img src="app/public/img/svg/svgexport-56.svg">
+                                <img src="img/svg/svgexport-2.svg">
+                                <img src="img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
+                                <img src="img/svg/svgexport-56.svg">
                             </div>
 
 
                         </div>
 
                         <div class="flexCard flexCardsearch">
-                            <a href="/details"><img src="app/public/img/khalf.jpg" alt="" class="book-photo"></a>
+                            <a href="/details"><img src="img/khalf.jpg" alt="" class="book-photo"></a>
                             <div class="card-title">
-                                <img src="app/public/img/svg/svgexport-57.svg" alt="">
+                                <img src="img/svg/svgexport-57.svg" alt="">
                                 <p>كتاب الكتروني</p>
 
                             </div>
@@ -391,9 +391,9 @@
                             </div>
                             <div class="dareba">شامل الضريبه</div>
                             <div class="icons">
-                                <img src="app/public/img/svg/svgexport-2.svg">
-                                <img src="app/public/img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
-                                <img src="app/public/img/svg/svgexport-56.svg">
+                                <img src="img/svg/svgexport-2.svg">
+                                <img src="img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
+                                <img src="img/svg/svgexport-56.svg">
                             </div>
 
 
@@ -401,9 +401,9 @@
 
 
                         <div class="flexCard flexCardsearch">
-                            <a href="/details"><img src="app/public/img/katlog.jpg" alt="" class="book-photo"></a>
+                            <a href="/details"><img src="img/katlog.jpg" alt="" class="book-photo"></a>
                             <div class="card-title">
-                                <img src="app/public/img/svg/svgexport-57.svg" alt="">
+                                <img src="img/svg/svgexport-57.svg" alt="">
                                 <p>كتاب الكتروني</p>
 
                             </div>
@@ -416,9 +416,9 @@
                                 <p>كتاب مطبوع</p>
                             </div>
                             <div class="icons">
-                                <img src="app/public/img/svg/svgexport-2.svg">
-                                <img src="app/public/img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
-                                <img src="app/public/img/svg/svgexport-56.svg">
+                                <img src="img/svg/svgexport-2.svg">
+                                <img src="img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
+                                <img src="img/svg/svgexport-56.svg">
                             </div>
 
 
@@ -427,9 +427,9 @@
 
 
                         <div class="flexCard flexCardsearch">
-                            <a href="/details"><img src="app/public/img/asaran.jpg" alt="" class="book-photo"></a>
+                            <a href="/details"><img src="img/asaran.jpg" alt="" class="book-photo"></a>
                             <div class="card-title">
-                                <img src="app/public/img/svg/svgexport-57.svg" alt="">
+                                <img src="img/svg/svgexport-57.svg" alt="">
                                 <p>كتاب الكتروني</p>
 
                             </div>
@@ -439,9 +439,9 @@
                             </div>
                             <div class="dareba">شامل الضريبه</div>
                             <div class="icons">
-                                <img src="app/public/img/svg/svgexport-2.svg">
-                                <img src="app/public/img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
-                                <img src="app/public/img/svg/svgexport-56.svg">
+                                <img src="img/svg/svgexport-2.svg">
+                                <img src="img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
+                                <img src="img/svg/svgexport-56.svg">
                             </div>
 
 
@@ -450,9 +450,9 @@
 
 
                         <div class="flexCard flexCardsearch">
-                            <a href="/details"><img src="app/public/img/zawag.jpg" alt="" class="book-photo"></a>
+                            <a href="/details"><img src="img/zawag.jpg" alt="" class="book-photo"></a>
                             <div class="card-title">
-                                <img src="app/public/img/svg/svgexport-57.svg" alt="">
+                                <img src="img/svg/svgexport-57.svg" alt="">
                                 <p>كتاب الكتروني</p>
 
                             </div>
@@ -462,9 +462,9 @@
                             </div>
                             <div class="dareba">شامل الضريبه</div>
                             <div class="icons">
-                                <img src="app/public/img/svg/svgexport-2.svg">
-                                <img src="app/public/img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
-                                <img src="app/public/img/svg/svgexport-56.svg">
+                                <img src="img/svg/svgexport-2.svg">
+                                <img src="img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
+                                <img src="img/svg/svgexport-56.svg">
                             </div>
 
 
@@ -490,9 +490,9 @@
 
 
                         <div class="flexCard flexCardsearch">
-                            <a href="/details"><img src="app/public/img/kebr.jpg" alt="" class="book-photo"></a>
+                            <a href="/details"><img src="img/kebr.jpg" alt="" class="book-photo"></a>
                             <div class="card-title">
-                                <img src="app/public/img/svg/svgexport-57.svg" alt="">
+                                <img src="img/svg/svgexport-57.svg" alt="">
                                 <p>كتاب الكتروني</p>
 
                             </div>
@@ -502,18 +502,18 @@
                             </div>
                             <div class="dareba">شامل الضريبه</div>
                             <div class="icons">
-                                <img src="app/public/img/svg/svgexport-2.svg">
-                                <img src="app/public/img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
-                                <img src="app/public/img/svg/svgexport-56.svg">
+                                <img src="img/svg/svgexport-2.svg">
+                                <img src="img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
+                                <img src="img/svg/svgexport-56.svg">
                             </div>
 
 
                         </div>
 
                         <div class="flexCard flexCardsearch">
-                            <a href="/details"><img src="app/public/img/khalf.jpg" alt="" class="book-photo"></a>
+                            <a href="/details"><img src="img/khalf.jpg" alt="" class="book-photo"></a>
                             <div class="card-title">
-                                <img src="app/public/img/svg/svgexport-57.svg" alt="">
+                                <img src="img/svg/svgexport-57.svg" alt="">
                                 <p>كتاب الكتروني</p>
 
                             </div>
@@ -523,9 +523,9 @@
                             </div>
                             <div class="dareba">شامل الضريبه</div>
                             <div class="icons">
-                                <img src="app/public/img/svg/svgexport-2.svg">
-                                <img src="app/public/img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
-                                <img src="app/public/img/svg/svgexport-56.svg">
+                                <img src="img/svg/svgexport-2.svg">
+                                <img src="img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
+                                <img src="img/svg/svgexport-56.svg">
                             </div>
 
 
@@ -533,9 +533,9 @@
 
 
                         <div class="flexCard flexCardsearch">
-                            <a href="/details"><img src="app/public/img/katlog.jpg" alt="" class="book-photo"></a>
+                            <a href="/details"><img src="img/katlog.jpg" alt="" class="book-photo"></a>
                             <div class="card-title">
-                                <img src="app/public/img/svg/svgexport-57.svg" alt="">
+                                <img src="img/svg/svgexport-57.svg" alt="">
                                 <p>كتاب الكتروني</p>
 
                             </div>
@@ -548,9 +548,9 @@
                                 <p>كتاب مطبوع</p>
                             </div>
                             <div class="icons">
-                                <img src="app/public/img/svg/svgexport-2.svg">
-                                <img src="app/public/img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
-                                <img src="app/public/img/svg/svgexport-56.svg">
+                                <img src="img/svg/svgexport-2.svg">
+                                <img src="img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
+                                <img src="img/svg/svgexport-56.svg">
                             </div>
 
 
@@ -559,9 +559,9 @@
 
 
                         <div class="flexCard flexCardsearch">
-                            <a href="/details"><img src="app/public/img/asaran.jpg" alt="" class="book-photo"></a>
+                            <a href="/details"><img src="img/asaran.jpg" alt="" class="book-photo"></a>
                             <div class="card-title">
-                                <img src="app/public/img/svg/svgexport-57.svg" alt="">
+                                <img src="img/svg/svgexport-57.svg" alt="">
                                 <p>كتاب الكتروني</p>
 
                             </div>
@@ -571,9 +571,9 @@
                             </div>
                             <div class="dareba">شامل الضريبه</div>
                             <div class="icons">
-                                <img src="app/public/img/svg/svgexport-2.svg">
-                                <img src="app/public/img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
-                                <img src="app/public/img/svg/svgexport-56.svg">
+                                <img src="img/svg/svgexport-2.svg">
+                                <img src="img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
+                                <img src="img/svg/svgexport-56.svg">
                             </div>
 
 
@@ -582,9 +582,9 @@
 
 
                         <div class="flexCard flexCardsearch">
-                            <a href="/details"><img src="app/public/img/zawag.jpg" alt="" class="book-photo"></a>
+                            <a href="/details"><img src="img/zawag.jpg" alt="" class="book-photo"></a>
                             <div class="card-title">
-                                <img src="app/public/img/svg/svgexport-57.svg" alt="">
+                                <img src="img/svg/svgexport-57.svg" alt="">
                                 <p>كتاب الكتروني</p>
 
                             </div>
@@ -594,9 +594,9 @@
                             </div>
                             <div class="dareba">شامل الضريبه</div>
                             <div class="icons">
-                                <img src="app/public/img/svg/svgexport-2.svg">
-                                <img src="app/public/img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
-                                <img src="app/public/img/svg/svgexport-56.svg">
+                                <img src="img/svg/svgexport-2.svg">
+                                <img src="img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
+                                <img src="img/svg/svgexport-56.svg">
                             </div>
 
 
@@ -622,9 +622,9 @@
 
 
                         <div class="flexCard flexCardsearch">
-                            <a href="/details"><img src="app/public/img/kebr.jpg" alt="" class="book-photo"></a>
+                            <a href="/details"><img src="img/kebr.jpg" alt="" class="book-photo"></a>
                             <div class="card-title">
-                                <img src="app/public/img/svg/svgexport-57.svg" alt="">
+                                <img src="img/svg/svgexport-57.svg" alt="">
                                 <p>كتاب الكتروني</p>
 
                             </div>
@@ -634,18 +634,18 @@
                             </div>
                             <div class="dareba">شامل الضريبه</div>
                             <div class="icons">
-                                <img src="app/public/img/svg/svgexport-2.svg">
-                                <img src="app/public/img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
-                                <img src="app/public/img/svg/svgexport-56.svg">
+                                <img src="img/svg/svgexport-2.svg">
+                                <img src="img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
+                                <img src="img/svg/svgexport-56.svg">
                             </div>
 
 
                         </div>
 
                         <div class="flexCard flexCardsearch">
-                            <a href="/details"><img src="app/public/img/khalf.jpg" alt="" class="book-photo"></a>
+                            <a href="/details"><img src="img/khalf.jpg" alt="" class="book-photo"></a>
                             <div class="card-title">
-                                <img src="app/public/img/svg/svgexport-57.svg" alt="">
+                                <img src="img/svg/svgexport-57.svg" alt="">
                                 <p>كتاب الكتروني</p>
 
                             </div>
@@ -655,9 +655,9 @@
                             </div>
                             <div class="dareba">شامل الضريبه</div>
                             <div class="icons">
-                                <img src="app/public/img/svg/svgexport-2.svg">
-                                <img src="app/public/img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
-                                <img src="app/public/img/svg/svgexport-56.svg">
+                                <img src="img/svg/svgexport-2.svg">
+                                <img src="img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
+                                <img src="img/svg/svgexport-56.svg">
                             </div>
 
 
@@ -665,9 +665,9 @@
 
 
                         <div class="flexCard flexCardsearch">
-                            <a href="/details"><img src="app/public/img/katlog.jpg" alt="" class="book-photo"></a>
+                            <a href="/details"><img src="img/katlog.jpg" alt="" class="book-photo"></a>
                             <div class="card-title">
-                                <img src="app/public/img/svg/svgexport-57.svg" alt="">
+                                <img src="img/svg/svgexport-57.svg" alt="">
                                 <p>كتاب الكتروني</p>
 
                             </div>
@@ -680,9 +680,9 @@
                                 <p>كتاب مطبوع</p>
                             </div>
                             <div class="icons">
-                                <img src="app/public/img/svg/svgexport-2.svg">
-                                <img src="app/public/img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
-                                <img src="app/public/img/svg/svgexport-56.svg">
+                                <img src="img/svg/svgexport-2.svg">
+                                <img src="img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
+                                <img src="img/svg/svgexport-56.svg">
                             </div>
 
 
@@ -691,9 +691,9 @@
 
 
                         <div class="flexCard flexCardsearch">
-                            <a href="/details"><img src="app/public/img/asaran.jpg" alt="" class="book-photo"></a>
+                            <a href="/details"><img src="img/asaran.jpg" alt="" class="book-photo"></a>
                             <div class="card-title">
-                                <img src="app/public/img/svg/svgexport-57.svg" alt="">
+                                <img src="img/svg/svgexport-57.svg" alt="">
                                 <p>كتاب الكتروني</p>
 
                             </div>
@@ -703,9 +703,9 @@
                             </div>
                             <div class="dareba">شامل الضريبه</div>
                             <div class="icons">
-                                <img src="app/public/img/svg/svgexport-2.svg">
-                                <img src="app/public/img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
-                                <img src="app/public/img/svg/svgexport-56.svg">
+                                <img src="img/svg/svgexport-2.svg">
+                                <img src="img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
+                                <img src="img/svg/svgexport-56.svg">
                             </div>
 
 
@@ -714,9 +714,9 @@
 
 
                         <div class="flexCard flexCardsearch">
-                            <a href="/details"><img src="app/public/img/zawag.jpg" alt="" class="book-photo"></a>
+                            <a href="/details"><img src="img/zawag.jpg" alt="" class="book-photo"></a>
                             <div class="card-title">
-                                <img src="app/public/img/svg/svgexport-57.svg" alt="">
+                                <img src="img/svg/svgexport-57.svg" alt="">
                                 <p>كتاب الكتروني</p>
 
                             </div>
@@ -726,9 +726,9 @@
                             </div>
                             <div class="dareba">شامل الضريبه</div>
                             <div class="icons">
-                                <img src="app/public/img/svg/svgexport-2.svg">
-                                <img src="app/public/img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
-                                <img src="app/public/img/svg/svgexport-56.svg">
+                                <img src="img/svg/svgexport-2.svg">
+                                <img src="img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
+                                <img src="img/svg/svgexport-56.svg">
                             </div>
 
 
@@ -754,9 +754,9 @@
 
 
                         <div class="flexCard flexCardsearch">
-                            <a href="/details"><img src="app/public/img/kebr.jpg" alt="" class="book-photo"></a>
+                            <a href="/details"><img src="img/kebr.jpg" alt="" class="book-photo"></a>
                             <div class="card-title">
-                                <img src="app/public/img/svg/svgexport-57.svg" alt="">
+                                <img src="img/svg/svgexport-57.svg" alt="">
                                 <p>كتاب الكتروني</p>
 
                             </div>
@@ -766,18 +766,18 @@
                             </div>
                             <div class="dareba">شامل الضريبه</div>
                             <div class="icons">
-                                <img src="app/public/img/svg/svgexport-2.svg">
-                                <img src="app/public/img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
-                                <img src="app/public/img/svg/svgexport-56.svg">
+                                <img src="img/svg/svgexport-2.svg">
+                                <img src="img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
+                                <img src="img/svg/svgexport-56.svg">
                             </div>
 
 
                         </div>
 
                         <div class="flexCard flexCardsearch">
-                            <a href="/details"><img src="app/public/img/khalf.jpg" alt="" class="book-photo"></a>
+                            <a href="/details"><img src="img/khalf.jpg" alt="" class="book-photo"></a>
                             <div class="card-title">
-                                <img src="app/public/img/svg/svgexport-57.svg" alt="">
+                                <img src="img/svg/svgexport-57.svg" alt="">
                                 <p>كتاب الكتروني</p>
 
                             </div>
@@ -787,9 +787,9 @@
                             </div>
                             <div class="dareba">شامل الضريبه</div>
                             <div class="icons">
-                                <img src="app/public/img/svg/svgexport-2.svg">
-                                <img src="app/public/img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
-                                <img src="app/public/img/svg/svgexport-56.svg">
+                                <img src="img/svg/svgexport-2.svg">
+                                <img src="img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
+                                <img src="img/svg/svgexport-56.svg">
                             </div>
 
 
@@ -797,9 +797,9 @@
 
 
                         <div class="flexCard flexCardsearch">
-                            <a href="/details"><img src="app/public/img/katlog.jpg" alt="" class="book-photo"></a>
+                            <a href="/details"><img src="img/katlog.jpg" alt="" class="book-photo"></a>
                             <div class="card-title">
-                                <img src="app/public/img/svg/svgexport-57.svg" alt="">
+                                <img src="img/svg/svgexport-57.svg" alt="">
                                 <p>كتاب الكتروني</p>
 
                             </div>
@@ -812,9 +812,9 @@
                                 <p>كتاب مطبوع</p>
                             </div>
                             <div class="icons">
-                                <img src="app/public/img/svg/svgexport-2.svg">
-                                <img src="app/public/img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
-                                <img src="app/public/img/svg/svgexport-56.svg">
+                                <img src="img/svg/svgexport-2.svg">
+                                <img src="img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
+                                <img src="img/svg/svgexport-56.svg">
                             </div>
 
 
@@ -823,9 +823,9 @@
 
 
                         <div class="flexCard flexCardsearch">
-                            <a href="/details"><img src="app/public/img/asaran.jpg" alt="" class="book-photo"></a>
+                            <a href="/details"><img src="img/asaran.jpg" alt="" class="book-photo"></a>
                             <div class="card-title">
-                                <img src="app/public/img/svg/svgexport-57.svg" alt="">
+                                <img src="img/svg/svgexport-57.svg" alt="">
                                 <p>كتاب الكتروني</p>
 
                             </div>
@@ -835,9 +835,9 @@
                             </div>
                             <div class="dareba">شامل الضريبه</div>
                             <div class="icons">
-                                <img src="app/public/img/svg/svgexport-2.svg">
-                                <img src="app/public/img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
-                                <img src="app/public/img/svg/svgexport-56.svg">
+                                <img src="img/svg/svgexport-2.svg">
+                                <img src="img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
+                                <img src="img/svg/svgexport-56.svg">
                             </div>
 
 
@@ -846,9 +846,9 @@
 
 
                         <div class="flexCard flexCardsearch">
-                            <a href="/details"><img src="app/public/img/zawag.jpg" alt="" class="book-photo"></a>
+                            <a href="/details"><img src="img/zawag.jpg" alt="" class="book-photo"></a>
                             <div class="card-title">
-                                <img src="app/public/img/svg/svgexport-57.svg" alt="">
+                                <img src="img/svg/svgexport-57.svg" alt="">
                                 <p>كتاب الكتروني</p>
 
                             </div>
@@ -858,9 +858,9 @@
                             </div>
                             <div class="dareba">شامل الضريبه</div>
                             <div class="icons">
-                                <img src="app/public/img/svg/svgexport-2.svg">
-                                <img src="app/public/img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
-                                <img src="app/public/img/svg/svgexport-56.svg">
+                                <img src="img/svg/svgexport-2.svg">
+                                <img src="img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
+                                <img src="img/svg/svgexport-56.svg">
                             </div>
 
 
@@ -886,9 +886,9 @@
             
             
                         <div class="flexCard flexCardsearch">
-                            <a href="/details"><img src="app/public/img/kebr.jpg" alt="" class="book-photo"></a>
+                            <a href="/details"><img src="img/kebr.jpg" alt="" class="book-photo"></a>
                             <div class="card-title">
-                                <img src="app/public/img/svg/svgexport-57.svg" alt="">
+                                <img src="img/svg/svgexport-57.svg" alt="">
                                 <p>كتاب الكتروني</p>
             
                             </div>
@@ -898,18 +898,18 @@
                             </div>
                             <div class="dareba">شامل الضريبه</div>
                             <div class="icons">
-                                <img src="app/public/img/svg/svgexport-2.svg">
-                                <img src="app/public/img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
-                                <img src="app/public/img/svg/svgexport-56.svg">
+                                <img src="img/svg/svgexport-2.svg">
+                                <img src="img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
+                                <img src="img/svg/svgexport-56.svg">
                             </div>
             
             
                         </div>
             
                         <div class="flexCard flexCardsearch">
-                            <a href="/details"><img src="app/public/img/khalf.jpg" alt="" class="book-photo"></a>
+                            <a href="/details"><img src="img/khalf.jpg" alt="" class="book-photo"></a>
                             <div class="card-title">
-                                <img src="app/public/img/svg/svgexport-57.svg" alt="">
+                                <img src="img/svg/svgexport-57.svg" alt="">
                                 <p>كتاب الكتروني</p>
             
                             </div>
@@ -919,9 +919,9 @@
                             </div>
                             <div class="dareba">شامل الضريبه</div>
                             <div class="icons">
-                                <img src="app/public/img/svg/svgexport-2.svg">
-                                <img src="app/public/img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
-                                <img src="app/public/img/svg/svgexport-56.svg">
+                                <img src="img/svg/svgexport-2.svg">
+                                <img src="img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
+                                <img src="img/svg/svgexport-56.svg">
                             </div>
             
             
@@ -929,9 +929,9 @@
             
             
                         <div class="flexCard flexCardsearch">
-                            <a href="/details"><img src="app/public/img/katlog.jpg" alt="" class="book-photo"></a>
+                            <a href="/details"><img src="img/katlog.jpg" alt="" class="book-photo"></a>
                             <div class="card-title">
-                                <img src="app/public/img/svg/svgexport-57.svg" alt="">
+                                <img src="img/svg/svgexport-57.svg" alt="">
                                 <p>كتاب الكتروني</p>
             
                             </div>
@@ -944,9 +944,9 @@
                                 <p>كتاب مطبوع</p>
                             </div>
                             <div class="icons">
-                                <img src="app/public/img/svg/svgexport-2.svg">
-                                <img src="app/public/img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
-                                <img src="app/public/img/svg/svgexport-56.svg">
+                                <img src="img/svg/svgexport-2.svg">
+                                <img src="img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
+                                <img src="img/svg/svgexport-56.svg">
                             </div>
             
             
@@ -955,9 +955,9 @@
             
             
                         <div class="flexCard flexCardsearch">
-                            <a href="/details"><img src="app/public/img/asaran.jpg" alt="" class="book-photo"></a>
+                            <a href="/details"><img src="img/asaran.jpg" alt="" class="book-photo"></a>
                             <div class="card-title">
-                                <img src="app/public/img/svg/svgexport-57.svg" alt="">
+                                <img src="img/svg/svgexport-57.svg" alt="">
                                 <p>كتاب الكتروني</p>
             
                             </div>
@@ -967,9 +967,9 @@
                             </div>
                             <div class="dareba">شامل الضريبه</div>
                             <div class="icons">
-                                <img src="app/public/img/svg/svgexport-2.svg">
-                                <img src="app/public/img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
-                                <img src="app/public/img/svg/svgexport-56.svg">
+                                <img src="img/svg/svgexport-2.svg">
+                                <img src="img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
+                                <img src="img/svg/svgexport-56.svg">
                             </div>
             
             
@@ -978,9 +978,9 @@
             
             
                         <div class="flexCard flexCardsearch">
-                            <a href="/details"><img src="app/public/img/zawag.jpg" alt="" class="book-photo"></a>
+                            <a href="/details"><img src="img/zawag.jpg" alt="" class="book-photo"></a>
                             <div class="card-title">
-                                <img src="app/public/img/svg/svgexport-57.svg" alt="">
+                                <img src="img/svg/svgexport-57.svg" alt="">
                                 <p>كتاب الكتروني</p>
             
                             </div>
@@ -990,9 +990,9 @@
                             </div>
                             <div class="dareba">شامل الضريبه</div>
                             <div class="icons">
-                                <img src="app/public/img/svg/svgexport-2.svg">
-                                <img src="app/public/img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
-                                <img src="app/public/img/svg/svgexport-56.svg">
+                                <img src="img/svg/svgexport-2.svg">
+                                <img src="img/svg/svgexport-21.svg" class="add" onclick="clickCounter()">
+                                <img src="img/svg/svgexport-56.svg">
                             </div>
             
             
@@ -1018,9 +1018,9 @@
             <!-- end signin -->
         </footer>
     </div>
-    <script src="app/public/js/app.js"></script>
+    <script src="js/app.js"></script>
     <!-- <script src="js/app2.js"></script> -->
-    <script src="app/public/js/app3.js"></script>
+    <script src="js/app3.js"></script>
 </body>
 
 </html>

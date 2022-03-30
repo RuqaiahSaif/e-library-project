@@ -1,8 +1,9 @@
 <?php
 
-namespace App\Controllers;
+namespace coding\app\controllers;
 
-use App\Controllers\Controller;
+
+use coding\app\controllers\Controller;
 
 class HomeController extends Controller
 {
@@ -31,5 +32,9 @@ class HomeController extends Controller
     public function steper()
     {
         $this->view('steper');
+    }
+     public function dashboard()
+    {
+        $this->view('dashboard');
     }
 }
