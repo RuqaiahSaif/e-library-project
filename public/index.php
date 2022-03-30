@@ -32,13 +32,12 @@ Router::get('/steper', [HomeController::class, 'steper']);
 Router::get('/dashboard', [HomeController::class, 'dashboard']);
 
 //users routers
-Router::get('/users',[UsersController::class,'show']);
+Router::get('/users',[UsersController::class,'listAll']);
 Router::get('/books',function(){
   echo "books route path";
 });
 Router::get('/new_user',[UsersController::class,'register']);
 Router::get('/remove_user',[UsersController::class,'delete']);
-Router::post('/users',[UsersController::class,'show']);
 Router::get('/new_user',[UsersController::class,'newUser']);
 Router::post('/save_user',[UsersController::class,'saveUser']);
 
