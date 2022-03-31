@@ -12,6 +12,8 @@ use coding\app\controllers\CityController;
 use coding\app\controllers\OfferController;
 use coding\app\controllers\OrderController;
 use coding\app\controllers\UserpaymentController;
+use coding\app\controllers\UseraddressController;
+
 
 use Dotenv\Dotenv;
 
@@ -145,6 +147,19 @@ Router::post('/save_userpay',[UserpaymentController::class,'store']);
 Router::post('/update_userpay',[UserpaymentController::class,'update']);
 
 /** end of Userpayment routes */
+
+
+/** Useraddress routes  */
+
+
+Router::get('/usersddress',[UseraddressController::class,'listAll']);
+Router::get('/add_useraddress',[UseraddressController::class,'create']);
+Router::get('/edit_userpay/id',[UseraddressController::class,'edit']);
+Router::get('/remove_userpay',[UseraddressController::class,'remove']);
+Router::post('/save_userpay',[UseraddressController::class,'store']);
+Router::post('/update_userpay',[UseraddressController::class,'update']);
+
+/** end of Useraddress routes */
 
 // auther routers
 Router::get('/save_author',[AuthorsController::class,'createAuthor']);
