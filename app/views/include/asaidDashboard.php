@@ -189,7 +189,17 @@
 
 
    <!-- Misc -->
-
+  <li class="menu-header small text-uppercase"><span class="menu-header-text">ادارة العناوين</span></li>
+   <li class="menu-item">
+  <a href="/add_useraddress" class="menu-link">
+    <div>اضافة عنوان </div>
+  </a>
+</li>
+<li class="menu-item">
+  <a href="/usersddress" class="menu-link">
+    <div>العناوين</div>
+  </a>
+</li>
    <!-- Misc -->
  
 
