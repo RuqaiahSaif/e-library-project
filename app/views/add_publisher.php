@@ -587,42 +587,44 @@
   <h5 class="card-header">اضافة دار النشر</h5>
   <form class="card-body" action="/save_publisher" method="POST" enctype="multipart/form-data">
     
-    <div class="row g-3">
+<div class="row g-3">
       <div class="col-md-6">
         <label class="form-label" for="multicol-username">اسم دار النشر</label>
-        <input name="publisher_name" type="text" id="multicol-username" class="form-control" placeholder="john.doe" />
+        <input name="name" type="text" id="multicol-username" class="form-control" placeholder="" />
       </div>
       <div class="col-md-6">
         <label class="form-label" for="multicol-username">رقم هاتف دار النشر</label>
-        <input name="publisher_phone" type="text" id="multicol-username" class="form-control" placeholder="john.doe" />
+        <input name="phone" type="tel" id="multicol-phone" class="form-control" placeholder="" />
       </div>
       <div class="col-md-6">
-        <label class="form-label" for="multicol-username">رقم اخر لدار النشر</label>
-        <input name="author_name" type="text" id="multicol-username" class="form-control" placeholder="john.doe" />
+        <label class="form-label" for="multicol-phone"> ALTهاتف </label>
+        <input name="alt_phone" type="tel" id="multicol-phone" class="form-control" placeholder="" />
       </div>
       <div class="col-md-6">
-        <label class="form-label" for="multicol-username">الفاكس</label>
-        <input name="publisher_phone2" type="text" id="multicol-username" class="form-control" placeholder="john.doe" />
-      </div>
-       <div class="col-md-6">
-        <label class="form-label" for="multicol-username">ايميل دار النشر</label>
-        <input name="book_name" type="publisher_email" id="multicol-username" class="form-control" placeholder="john.doe" />
+        <label class="form-label" for="multicol-fax">الفاكس</label>
+        <input name="fax" type="text" id="multicol-fax" class="form-control" placeholder="" />
       </div>
       <div class="col-md-6">
-        <label class="form-label" for="multicol-email">العنوان</label>
-                <input name="publisher_address" type="text" id="multicol-username" class="form-control" placeholder="" />
-        </div>
-        <div class="col-md-6">
-        <label class="form-label" for="multicol-email">الدولة</label>
-                <input name="publisher_country" type="text" id="multicol-username" class="form-control" placeholder="" />
-        </div>
-        <div class="col-md-6">
-        <label class="form-label" for="multicol-email">الصورة</label>
+        <label class="form-label" for="multicol-email">الايميل</label>
         <div class="input-group input-group-merge">
-          <input  name="publisher_image" type="file"  class="form-control"  aria-describedby="multicol-email2" />
-          
+          <input  name="email"type="text" id="multicol-email" class="form-control" placeholder="" aria-label="" aria-describedby="multicol-email2" />
+          <span class="input-group-text" id="multicol-email2">@example.com</span>
         </div>
       </div>
+      <div class="col-md-6">
+        <label class="form-label" for="multicol-address">العنوان</label>
+        <input name="address" type="text" id="multicol-address" class="form-control" placeholder="" />
+      </div>
+      <div class="col-md-6">
+        <label class="form-label" for="multicol-country">الدولة</label>
+        <input name="country" type="text" id="multicol-country" class="form-control" placeholder="" />
+      </div>
+      <div class="col-md-6">
+          <label for="formFile" class="form-label">الصورة</label>
+          <input class="form-control" name="image" type="file" id="formFile">
+        </div>
+       
+      
       </div>
       
       <div class="col-md-6">

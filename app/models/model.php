@@ -28,9 +28,9 @@ class Model{
    
         $stmt=AppSystem::$appSystem->database->pdo->prepare($sql_query);
         if($stmt->execute())
-        return false;
-        return false;
-       // return true;
+        // return false;
+        // return false;
+       return true;
      //echo $sql_query;
     }
        public function getAll(){

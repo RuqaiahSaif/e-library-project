@@ -590,7 +590,7 @@
     <div class="row g-3">
       <div class="col-md-6">
         <label class="form-label" for="multicol-username">اسم المدينة</label>
-        <input name="city_name" type="text" id="multicol-username" class="form-control" placeholder="john.doe" />
+        <input name="name" type="text" id="multicol-username" class="form-control" placeholder="john.doe" />
       </div>
     
       

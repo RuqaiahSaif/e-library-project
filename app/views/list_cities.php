@@ -600,15 +600,15 @@
         <tbody>
        
          
-         <?php foreach($params as $book){?>
+       
+         
+         <?php foreach($params as $city){?>
           <tr>
             
-            <td><?= $book['name'];?></td>
+            <td><?= $city['name'];?></td>
+       
             <td>
-              <img class="img-fluid rounded" height="150px" width="150px" src="images/<?= $book['image'];?>">
-            </td>
-            <td>
-            <?php if($book['is_active']==1) {?>    
+            <?php if($city['is_active']==1) {?>    
             <span class="badge bg-label-success me-1">مفعل</span>
             <?php }
             else {?>
@@ -616,7 +616,7 @@
             <?php } ?>
             </td>
             <td>
-            <a href="/edit_category/id=<?php echo $book['id'];?>" class="btn btn-icon btn-outline-dribbble">
+            <a href="/edit_city/<?php echo $citغ['id'];?>" class="btn btn-icon btn-outline-dribbble">
                 <i class="tf-icons bx bx-edit-alt me-1"></i>
               </a>
               <button type="button" class="btn btn-icon btn-outline-dribbble">

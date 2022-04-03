@@ -592,6 +592,7 @@
           <tr>
             <th>اسم المستخدم </th>
             <th>الايميل</th>
+            <th> الصلاحية</th>
         
             <th>الحالة</th>
             
@@ -607,6 +608,7 @@
             <td><?= $category['name'];?></td>
             <td><?= $category['email'];?>
             </td>
+             <td><?= $user['role_id'];?></td>
             <td>
             <?php if($category['is_active']==1) {?>    
             <span class="badge bg-label-success me-1">مفعل</span>

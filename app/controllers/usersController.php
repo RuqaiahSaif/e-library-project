@@ -2,11 +2,16 @@
 namespace coding\app\controllers;
 
 use coding\app\models\User;
+use coding\app\Models\Role;
 
 class UsersController extends Controller{
 
-    function newUser(){
-        $this->view('new_user');
+   
+      function newUser(){
+        $roles=new role();
+        $allroles=$roles->getAll();
+
+        $this->view('new_user',$allroles);
     }
 
       function listAll(){
@@ -30,8 +35,8 @@ class UsersController extends Controller{
         $user->email=$_POST['email'];
         $user->password=md5($_POST['password']);
         $user->is_active=isset($_POST['is_active'])?1:0;
-        $user->role_id=1;
-        $user->save();
+       $user->role_id=$_POST['roles'];
+       
         if($user->save())
         
         $this->view('feedback',['success'=>'data inserted successful']);
