@@ -74,7 +74,19 @@
   </a>
 </li>
  
-
+ <!-- Misc -->
+  <li class="menu-header small text-uppercase"><span class="menu-header-text">ادارة الصلاحيات</span></li>
+  <li class="menu-item">
+  <a href="/add_role" class="menu-link">
+    <div>اضافة صلاحية للمستخدم</div>
+  </a>
+</li>
+<li class="menu-item">
+  <a href="/roles" class="menu-link">
+    <div>عرض الصلاحيات</div>
+  </a>
+</li>
+  <!-- Misc -->
 
   <!-- Misc -->
   <li class="menu-header small text-uppercase"><span class="menu-header-text">ادارة الاقسام والتصنيفات</span></li>
@@ -129,7 +141,7 @@
   </a>
 </li>
 <li class="menu-item">
-  <a href="/authors" class="menu-link">
+  <a href="/books" class="menu-link">
     <div>عرض الكتب</div>
   </a>
 </li>

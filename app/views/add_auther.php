@@ -590,20 +590,21 @@
     <div class="row g-3">
       <div class="col-md-6">
         <label class="form-label" for="multicol-username">اسم المؤلف</label>
-        <input name="author_name" type="text" id="multicol-username" class="form-control" placeholder="john.doe" />
+        <input name="name" type="text" id="multicol-username" class="form-control" placeholder="john.doe" />
       </div>
       <div class="col-md-6">
         <label class="form-label" for="multicol-username">رقم هاتف المؤلف</label>
-        <input name="author_name" type="text" id="multicol-username" class="form-control" placeholder="john.doe" />
+        <input name="phone" type="text" id="multicol-username" class="form-control" placeholder="john.doe" />
       </div>
        <div class="col-md-6">
         <label class="form-label" for="multicol-username">ايميل المؤلف</label>
-        <input name="book_name" type="email" id="multicol-username" class="form-control" placeholder="john.doe" />
+        <input name="email" type="email" id="multicol-username" class="form-control" placeholder="john.doe" />
       </div>
       <div class="col-md-6">
-        <label class="form-label" for="multicol-email">الوصف</label>
-                <input name="book_name" type="text" id="multicol-username" class="form-control" placeholder="" />
-
+          
+          <label for="exampleFormControlTextarea1" class="form-label">الوصف</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" name="bio" rows="3"></textarea>
+        
           
         </div>
       </div>

@@ -588,27 +588,78 @@
   <form class="card-body" action="/save_book" method="POST" enctype="multipart/form-data">
     
     <div class="row g-3">
-      <div class="col-md-6">
+   <div class="col-md-6">
         <label class="form-label" for="multicol-username">اسم الكتاب</label>
-        <input name="book_name" type="text" id="multicol-username" class="form-control" placeholder="john.doe" />
+        <input name="title" type="text" id="multicol-username" class="form-control" placeholder="" />
       </div>
       <div class="col-md-6">
-        <label class="form-label" for="multicol-email">صورة الكتاب</label>
-        <div class="input-group input-group-merge">
-          <input  name="image" type="file"  class="form-control"  aria-describedby="multicol-email2" />
-          
+          <label for="formFile" class="form-label">الصورة</label>
+          <input class="form-control" name="image" type="file" id="formFile">
         </div>
+      <div class="col-md-6">
+        <label class="form-label" for="multicol-pages_number">عدد الصفحات</label>
+        <input name="pages_number" type="number" id="multicol-pages_number" class="form-control" placeholder="" />
       </div>
-       <div class="col-md-6">
-        <label class="form-label" for="multicol-username">وصف الكتاب</label>
-        <input name="book_name" type="text" id="multicol-username" class="form-control" placeholder="john.doe" />
+     
+    
+      <div class="col-md-6">
+        <label class="form-label" for="multicol-username">سعر الكتاب</label>
+        <input name="price" type="number" id="multicol-phone" class="form-control" placeholder="" />
+      </div>
+        <div class="col-md-6">
+          <label for="exampleFormControlTextarea1" class="form-label">الوصف</label>
+          <textarea name="description" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+    </div>
+      <div class="col-md-6 col-12 mb-md-0 mb-3 ps-md-0">
+      <label class="form-label" for="multicol-email">  القسم</label>
+                    <select name="categories" class="form-select item-details mb-2">
+                    <?php
+                foreach($params['categories'] as $category){
+                 ?>
+    <option  value ='<?=$category['id']?>'><?=$category['name']?></option>
+			       	
+		         	<?php
+ 
+                         }?>
+               
+                    </select>
+      </div>
+      <div class="col-md-6 col-12 mb-md-0 mb-3 ps-md-0">
+      <label class="form-label" for="multicol-email"> المؤلف</label>
+                    <select name="authors" class="form-select item-details mb-2">
+                    <?php
+                foreach($params['authors'] as $author){
+                echo $author['name'];
+                 ?>
+    <option  value ='<?=$author['id']?>'><?=$author['name']?></option>
+			       	
+		         	<?php
+ 
+                         }?>
+                    </select>
+      </div>
+      <div class="col-md-6 col-12 mb-md-0 mb-3 ps-md-0">
+      <label class="form-label" for="multicol-email"> دار النشر</label>
+                    <select name="publishers" class="form-select item-details mb-2">
+                    <?php
+                foreach($params['publishers'] as $publisher){
+                 ?>
+    <option  value ='<?=$publisher['id']?>'><?=$publisher['name']?></option>
+			       	
+		         	<?php
+ 
+                         }?>
+               
+                    </select>
       </div>
       <div class="col-md-6">
-        <label class="form-label" for="multicol-email">سعر الكتاب</label>
-                <input name="book_name" type="number" id="multicol-username" class="form-control" placeholder="" />
-
-          
-        </div>
+        <label class="form-label" for="multicol-country">الكمية</label>
+        <input name="quantity" type="number" id="multicol-country" class="form-control" placeholder="" />
+      </div>	
+      <div class="col-md-6">
+        <label class="form-label" for="multicol-format">الصيغة</label>
+        <input name="format" type="text" id="multicol-format" class="form-control" placeholder="" />
       </div>
       
       <div class="col-md-6">

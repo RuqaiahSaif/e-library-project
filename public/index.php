@@ -8,6 +8,7 @@ use coding\app\controllers\bookController;
 use coding\app\controllers\AuthorsController;
 use coding\app\controllers\PublisherController;
 use coding\app\controllers\UsersController;
+use coding\app\controllers\roleController;
 use coding\app\controllers\CityController;
 use coding\app\controllers\OfferController;
 use coding\app\controllers\OrderController;
@@ -36,6 +37,14 @@ Router::get('/category', [HomeController::class, 'category']);
 Router::get('/details', [HomeController::class, 'details']);
 Router::get('/steper', [HomeController::class, 'steper']);
 Router::get('/dashboard', [HomeController::class, 'dashboard']);
+// role
+Router::get('/roles',[roleController::class,'listAll']);
+Router::get('/add_role',[roleController::class,'create']);
+Router::get('/edit_role',[roleController::class,'editrole']);
+Router::get('/remove_role',[roleController::class,'remove']);
+Router::post('/save_role',[roleController::class,'store']);
+Router::post('/update_role',[roleController::class,'update']);
+// end role
 
 //users routers
 Router::get('/users',[UsersController::class,'listAll']);
@@ -85,7 +94,7 @@ Router::post('/update_author',[AuthorsController::class,'update']);
 /** end of author routes */
 
 
-/** end of publisher routes */
+/**  publisher routes */
 
 
 

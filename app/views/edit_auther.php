@@ -584,25 +584,25 @@
 
 <!-- Multi Column with Form Separator -->
 <div class="card mb-4">
-  <h5 class="card-header">اضافة مؤلف جديد</h5>
+  <h5 class="card-header">تعديل</h5>
   <form class="card-body" action="/save_author" method="POST" enctype="multipart/form-data">
     
     <div class="row g-3">
       <div class="col-md-6">
         <label class="form-label" for="multicol-username">اسم المؤلف</label>
-        <input name="author_name" type="text" id="multicol-username" class="form-control" placeholder="john.doe" />
+        <input name="name" type="text" id="multicol-username" class="form-control" placeholder="john.doe" />
       </div>
       <div class="col-md-6">
         <label class="form-label" for="multicol-username">رقم هاتف المؤلف</label>
-        <input name="author_name" type="text" id="multicol-username" class="form-control" placeholder="john.doe" />
+        <input name="phone" type="text" id="multicol-username" class="form-control" placeholder="john.doe" />
       </div>
        <div class="col-md-6">
         <label class="form-label" for="multicol-username">ايميل المؤلف</label>
-        <input name="book_name" type="email" id="multicol-username" class="form-control" placeholder="john.doe" />
+        <input name="email" type="email" id="multicol-username" class="form-control" placeholder="john.doe" />
       </div>
       <div class="col-md-6">
         <label class="form-label" for="multicol-email">الوصف</label>
-                <input name="book_name" type="text" id="multicol-username" class="form-control" placeholder="" />
+                <input name="bio" type="text" id="multicol-username" class="form-control" placeholder="" />
 
           
         </div>

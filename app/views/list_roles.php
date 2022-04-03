@@ -584,42 +584,28 @@
             <!-- Multi Column with Form Separator -->
             <!-- Bordered Table -->
 <div class="card">
-  <h5 class="card-header">Bordered Table</h5>
   <div class="card-body">
     <div class="table-responsive text-nowrap">
       <table class="table table-bordered">
         <thead>
           <tr>
-            <th>اسم دار النشر</th>
-            <th>رقم هاتف دار النشر</th>
-            <th>رقم اخر لدار النشر</th>
-            <th>الفاكس</th>
-            <th>ايميل دار النشر</th>
-            <th>العنوان</th>
-            <th>الدولة</th>
-            <th>الصورة</th>
-            <th>الحاله</th>
+            <th>الاسم</th>
+       
+            <th>الحالة</th>
+            
             <th>العمليات</th>
           </tr>
         </thead>
         <tbody>
        
-        <?php foreach($params as $publisher){?>
+         
+         <?php foreach($params as $role){?>
           <tr>
             
-            <td><?= $publisher['name'];?></td>
-           
-            <td><?= $publisher['phone'];?></td>
-            <td><?= $publisher['alt_phone'];?></td>
-            <td><?= $publisher['fax'];?></td>
-            <td><?= $publisher['email'];?></td>
-            <td><?= $publisher['address'];?></td>
-            <td><?= $publisher['country'];?></td>
-             <td>
-              <img class="img-fluid rounded" height="150px" width="150px" src="images/<?= $publisher['image'];?>">
-            </td>
+            <td><?= $role['name'];?></td>
+        
             <td>
-            <?php if($publisher['is_active']==1) {?>    
+            <?php if($role['is_active']==1) {?>    
             <span class="badge bg-label-success me-1">مفعل</span>
             <?php }
             else {?>
@@ -627,7 +613,7 @@
             <?php } ?>
             </td>
             <td>
-            <a href="/edit_publisher/<?php echo $publisher['id'];?>" class="btn btn-icon btn-outline-dribbble">
+            <a href="/edit_role/<?php echo $role['id'];?>" class="btn btn-icon btn-outline-dribbble">
                 <i class="tf-icons bx bx-edit-alt me-1"></i>
               </a>
               <button type="button" class="btn btn-icon btn-outline-dribbble">

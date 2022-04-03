@@ -19,23 +19,24 @@ class AuthorsController extends Controller{
     }
 
     function store(){
-        print_r($_POST);
-        print_r($_FILES);
-        $book=new Book();
+        // print_r($_POST);
+        // print_r($_FILES);
+        $author=new Author();
         
-        $category->name=$_POST['category_name'];
-        $imageName=$this->uploadFile($_FILES['image']);
+        $author->name=$_POST['name'];
+        $author->phone=$_POST['phone'];
+        $author->bio=$_POST['bio'];
+        $author->email=$_POST['email'];
+        $author->created_by=1;
+        $author->is_active=$_POST['is_active'];
+        
+        if($author->save())
+        
+        $this->view('feedback',['success'=>'data inserted successful']);
+        else 
+        $this->view('feedback',['danger'=>'can not add data']);
 
-        $category->image=$imageName!=null?$imageName:"default.png";
-        $category->created_by=1;
-        if(isset($_POST['is_active'])&& $_POST['is_active'] == 1){
-             $category->is_active=1;
-        }
-        else{
-        $category->is_active= 0;
-        }
 
-        $category->save();
 
     }
     function edit($id = 0, $edit = null){

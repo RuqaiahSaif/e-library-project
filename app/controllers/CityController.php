@@ -20,23 +20,21 @@ class CityController extends Controller{
     }
 
     function store(){
-        print_r($_POST);
-        print_r($_FILES);
-        $book=new Book();
+        // print_r($_POST);
+        // print_r($_FILES);
+         $city=new City();
         
-        $category->name=$_POST['category_name'];
-        $imageName=$this->uploadFile($_FILES['image']);
+        $city->name=$_POST['name'];
 
-        $category->image=$imageName!=null?$imageName:"default.png";
-        $category->created_by=1;
-        if(isset($_POST['is_active'])&& $_POST['is_active'] == 1){
-             $category->is_active=1;
-        }
-        else{
-        $category->is_active= 0;
-        }
+        $city->created_by=1;
+        $city->is_active=$_POST['is_active'];
 
-        $category->save();
+
+        if($city->save())
+        
+        $this->view('feedback',['success'=>'data inserted successful']);
+        else 
+        $this->view('feedback',['danger'=>'can not add data']);
 
     }
     function edit($id = 0, $edit = null){
